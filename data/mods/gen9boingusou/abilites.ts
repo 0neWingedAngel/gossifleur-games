@@ -1,6 +1,6 @@
 // bring other abilites not in this file
 export const Abilities: import('../../../sim/dex-abilities').ModdedAbilityDataTable = {
-		chaosburst: {
+	chaosburst: {
 		onResidualOrder: 29,
 		onResidual(pokemon) {
 			if (pokemon.baseSpecies.baseSpecies !== 'Fecto Elfilis' || pokemon.transformed || !pokemon.hp) return;
